@@ -1,0 +1,81 @@
+---
+title: pipana solana
+layout: layouts/default.njk
+---
+
+
+  {% include "_solana_airdrop_form.njk" %}
+
+
+<article id="pipana-airdrop" class="pa4 black-80">
+  <h1 class="white ttu fw1 f3 sans-serif">Pipana Airdrop</h1>
+  <form name="pipana-airdrop" netlify>
+    <div class="mt3">
+      <input 
+        class="fw1 f4 pa2 input-reset ba bg-purple white w-100 measure" 
+        type="text" 
+        name="name"
+        placeholder="Name"
+      >
+    </div>
+    <div class="mt3">
+      <input 
+        class="fw1 f4 pa2 input-reset ba bg-purple white w-100 measure" type="text" 
+        name="sol-address"
+        placeholder="Solana Address"
+      >
+    </div>
+    <div class="mt3">
+      <input 
+        class="ph3 f4 pv2 input-reset ba b--white white bg-transparent grow pointer" 
+        type="submit" 
+        value="Sign Up"
+      >
+    </div>
+  </form>
+</article>
+
+
+
+<div class="pa4-l">
+
+  <form id="solana-airdrop-form" class="mw7 center pa4 bt bb b--black-10">
+    <h1 class="white ttu fw1 f3 sans-serif">Token Mint Address</h1>
+    <span class="fw1 f5 sans-serif">Adding pipana to your wallets</span>
+    <fieldset class="cf ma0 pa0 ba b--white">
+      <div class="cf">
+        <input 
+          class="f4 fw1 f5-l input-reset bn fl bg-black white pa3 lh-solid w-100 w-75-m w-80-l  br2-ns br--left-ns" 
+          placeholder="8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe" 
+          type="text" 
+          value="8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe">
+        <input 
+          class="btn f4 fw1 f5-l button-reset fl pv3 tc bn bg-animate bg-purple hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns" 
+          data-clipboard-action="copy"
+          data-clipboard-target="#bsc-address"
+          type="submit" 
+          value="Copy">
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+
+<div class="mw7 center ph3-ns">
+  <div class="cf ph2-ns">
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="pv4">
+              <img src="/img/pipana-transparent.png" alt="A bright blue sky" class="w-100 mw7 w5-ns animate__animated animate__pulse animate__infinite infinite animate__slow" />
+      </div>
+    </div>
+    <div class="fl w-100 w-50-ns pa2">
+      <div class="pv4">
+        <p class="lh-copy white">
+        For desktop, this text is vertically aligned middle, no matter what the height of the image is.
+        On mobile, this is a paragraph below an image.
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+

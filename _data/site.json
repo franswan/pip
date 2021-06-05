@@ -1,0 +1,18 @@
+{
+  "title": "pip.monster",
+  "url": "https://pip.monster/",
+  "description": "This is an 11ty Starter Template with Tachyons in place for styling.",
+  "googleID": "xxxxxxxxxxxxxxx",
+  "repo": "http://github.com/whaleen/11ty-tachyons",
+  "feed": {
+    "subtitle": "This is an 11ty Starter Template with Tachyons in place for styling.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://myurl.com/"
+  },
+  "author": {
+    "name": "Fran Swan",
+    "email": "franswan@protonmail.com",
+    "avatar": "/images/avatar.gif"
+  }
+}

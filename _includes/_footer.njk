@@ -1,0 +1,27 @@
+<footer class="footer pv2 pv3-l ph4 mt5">
+<section class="mw6 mw7-ns center pa3 ph5-ns">
+  <p class="f6">
+    © 2021. {{ site.title }} &middot; <a class="link black hover-gold" href="{{ site.repo }}">GitHub Repo</a> <a href="/pipana-intensifies/">i</a>
+  </p>
+</section>
+</footer>
+
+<!-- 3. Instantiate clipboard -->
+    <script>
+      var clipboard = new ClipboardJS('.btn');
+
+      clipboard.on('success', function (e) {
+        console.log(e);
+      });
+
+      clipboard.on('error', function (e) {
+        console.log(e);
+      });
+    </script>
+
+
+    <script>
+      $("#solana-airdrop-submit").submit(function(e) {
+    e.preventDefault();
+    });
+    </script>

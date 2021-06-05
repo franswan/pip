@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "_head.njk" %}
+
+<body class="{{ 'bg-black white' if '/solana/' in page.url }}{{ 'bg-yellow white' if '/bsc/' in page.url }}">
+  <!-- .content class on the div is for the Sticky Footer  -->
+  <div class="content">
+  
+  {{ content | safe }}
+
+  </div>
+
+
+</body>
+</html>
