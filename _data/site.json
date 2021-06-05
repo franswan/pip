@@ -1,11 +1,10 @@
 {
   "title": "pip.monster",
   "url": "https://pip.monster/",
-  "description": "This is an 11ty Starter Template with Tachyons in place for styling.",
-  "googleID": "xxxxxxxxxxxxxxx",
-  "repo": "http://github.com/whaleen/11ty-tachyons",
+  "description": "pipana intensifies",
+  
   "feed": {
-    "subtitle": "This is an 11ty Starter Template with Tachyons in place for styling.",
+    "subtitle": "pipana intensifies",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://myurl.com/"
