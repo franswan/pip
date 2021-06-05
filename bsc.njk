@@ -3,49 +3,64 @@ title: pipana
 layout: layouts/default.njk
 ---
 
+<audio id="myAudio">
+  <source src="/images/animal-sound.mp3" type="audio/mpeg">
+</audio>
 
-<div class="mw7 center ph3-ns">
-  <div class="cf ph2-ns">
-    <div class="fl w-100 w-50-ns pa2">
-      <div class="pv4">
-              <img src="/img/pipana-transparent.png" alt="A bright blue sky" class="w-100 mw7 w5-ns animate__animated animate__pulse animate__infinite infinite animate__slow" />
-      </div>
-    </div>
-    <div class="fl w-100 w-50-ns pa2 db dtc-ns v-mid">
-      <div class="pv4 ">
-        <p class="lh-copy black">
-        For desktop, this text is vertically aligned middle, no matter what the height of the image is.
-        On mobile, this is a paragraph below an image.
-      </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="flex items-center justify-center bb b--white-20 mw6">
-    <a href="/solana" class="f5 no-underline black ba bg-animate hover-bg-black hover-white inline-flex items-center pa3 border-box mr4">
-        <span class="w3 {{ 'animate__animated animate__bounce' if '/solana/' in page.url }}">
-          <img src="/images/pancakeswap-logo.png" class="br2 pa1 ba b--white-50 bg-blue" alt="avatar">
-        </span>
-      <span class="pl4">PancakeSwap Buy</span>
-    </a>
-</div>
-
-<img src="/images/pancakeswap-logo.png">
-pancake swap
-buy add lp
-
-
-<div class="dt mw6 center pt0 pb5 pv5-m pv6-ns">
+<div class="dt mw6 center pt0 pb5 pv5-m pv6-ns ph3">
     <div class="db dtc-ns v-mid-ns">
-      <img src="/img/pipana-transparent.png" alt="A bright blue sky" class="w-100 mw7 w5-ns animate__animated animate__pulse animate__infinite infinite animate__slow" />
+      <img onclick="playAudio()" src="/img/pipana-transparent.png" alt="A bright blue sky" class="w-100 mw7 w5-ns animate__animated animate__pulse animate__infinite infinite animate__slow" />
     </div>
     <div class="db dtc-ns v-mid ph4 pr0-ns pl3-ns">
-      <p class="lh-copy">
-        For desktop, this text is  aligned middle, no matter what the height of the image is.
-        On mobile, this is a paragraph below an image.
+      <p class="lh-copy bsc-copy">
+        1000 $pip have been minted on the Binance Smart Chain.
       </p>
     </div>
   </div>
+
+  <div class="mw9 center ph3">
+  <div class="cf ph2-ns">
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-50 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+    <div class="fl w-100 w-third-ns pa2">
+      <div class="outline bg-white pv4"></div>
+    </div>
+  </div>
+</div>
+
+<div class="flex items-center justify-center bb b--white-20 bg-light-blue w-100">
+  <h2 class="white fw1">Market</h2>
+    <a href="/solana" class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa3 border-box mr4">
+        <span class="w3 {{ 'animate__animated animate__bounce' if '/solana/' in page.url }}">
+          <img src="/images/pancakeswap-logo.png" class="br2 pa1 shadow-5" alt="avatar">
+        </span>
+      <span class="pl4 white fw1">PancakeSwap <br>Buy | Add Liquidity</span>
+    </a>
+    <div class="mw7 center pa4">
+      {# https://github.com/zenorocha/clipboard.js #}
+      <div class="cf">
+        <input 
+          id="bsc-address"
+          class="f5 fw1 f5-l input-reset bn fl bg-light-blue white pa3 lh-solid w-100 w-75-m w-80-l  br2-ns br--left-ns" 
+          placeholder="0x845b705996f4235e7e0b792d57d4bc452ba6f748" 
+          type="text" 
+          value="0x845b705996f4235e7e0b792d57d4bc452ba6f748">
+        <button 
+          class="btn f5 fw1 f5-l button-reset fl pv3 tc bn bg-animate bg-blue hover-bg-light-blue white pointer w-100 w-25-m w-20-l dim" 
+          data-clipboard-action="copy"
+          data-clipboard-target="#bsc-address"
+          value="Copy">copy</button>
+      </div>
+  </div>
+</div>
+
+
+<article class="vh-100 dt w-100 bg-black">
+  <div class="dtc v-mid tc white ph3 ph4-l">
+    <img src="/images/pipana-grande.png">
+  </div>
+</article>
