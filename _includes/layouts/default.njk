@@ -3,15 +3,18 @@
   {% include "_head.njk" %}
 
 <body class="{{ 'bg-black white' if '/solana/' in page.url }}{{ 'bg-yellow white' if '/bsc/' in page.url }}">
-  <!-- .content class on the div is for the Sticky Footer  -->
-  <div class="">
-  {% include "_header.njk" %}
+    
+  <audio id="myAudio">
+    <source src="/images/animal-sound.mp3" type="audio/mpeg">
+  </audio>
+  
+  <!-- .content class on the div is for the Sticky Footer  -->  
+  <div class="">  
   
   {{ content | safe }}
 
   </div>
   {% include "_footer.njk" %}
-  {% include "_google_analytics.njk" %}
 
 </body>
 </html>

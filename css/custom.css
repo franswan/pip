@@ -6,3 +6,9 @@
 .solana-copy {color: rgb(180, 96, 180);}
 
 
+.sol {
+    background: #4B91BB;
+    background: -webkit-linear-gradient(bottom, #4B91BB, #CC46A7);
+    background: -moz-linear-gradient(bottom, #4B91BB, #CC46A7);
+    background: linear-gradient(to top, #4B91BB, #CC46A7);
+}

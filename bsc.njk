@@ -3,20 +3,18 @@ title: pipana
 layout: layouts/default.njk
 ---
 
-<audio id="myAudio">
-  <source src="/images/animal-sound.mp3" type="audio/mpeg">
-</audio>
+<article class="athelas">
+<div class="vh-100 dt w-100 tc bg-yellow white">
+<div class="dtc v-mid">
 
-<div class="dt mw7 center pt0 pb5 pv5-m pv6-ns ph3">
-    <div class="db dtc-ns v-mid-ns">
-      <img onclick="playAudio()" src="/img/pipana-transparent.png" alt="A bright blue sky" class="w-100 mw7 w5-ns animate__animated animate__pulse animate__slow" />
-    </div>
-    <div class="db dtc-ns v-mid ph4 pr0-ns pl3-ns">
-      <p class="lh-copy bsc-copy fw1 f3 f2-ns f2-l tc">
-        1000 $pipana, on the Binance Smart Chain.
-      </p>
-    </div>
-  </div>
+{% include "_header.njk" %}
+
+{% include "_bsc_hero.njk" %}
+
+</div>
+</div>
+</article>
+  
 
   
 <article class="vh-100 dt w-100 bg-light-blue">
@@ -33,91 +31,5 @@ layout: layouts/default.njk
     </div>
 
     </div>
-  </div>
-</article>
-
-
-<article class="vh-100 dt w-100 bg-black">
-  <div class="dtc v-mid tc white ph3 ph4-l">
-    <div class="mw9 center">
-    
-    <div class="db dtc-ns v-mid-ns">
-    <img src="/images/iphone.png">
-    </div>
-    <div class="db dtc-ns v-mid ph4 pr0-ns pl3-ns">
-      <p class="lh-copy bsc-copy">
-    hold between .1 and 3 $pip to be entered into the drawing.
-      </p>
-    </div>
-
-    </div>
-  </div>
-</article>
-
-
-{# <article class="vh-100 dt w-100 bg-light-blue">
-  <div class="dtc v-mid tc white">
-    <div class="mw9 center ph3">
-  <div class="cf ph2-ns">
-    <div class="fl w-100 w-third-ns pa2">
-      <h1 class="white ttu fw1 f3 sans-serif">Market</h1>
-      <div class="pb4 f2">Pancake Swap</div>
-    </div>
-    <div class="fl w-50 w-third-ns pa2">
-      <div class="pv4">
-        <img src="/images/pancakeswap-logo.png" class="h4 w4" alt="avatar">
-      </div>
-    </div>
-    <div class="fl w-50 w-third-ns pa2">
-      <div class="pv4">
-        <a class="f5 link dim ba b--blue ph3 pv2 mb2 dib bluettu" href="#0">Trade</a><br>
-        <a class="f5 link dim ba ph3 b--blue pv2 mb2 dib blue ttu" href="#0">Add Liquidity</a>
-      </div>
-    </div>
-    <div class="fl w-100 pa2">
-      contract address
-      <span class="pv4">
-        8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe
-      </span>
-    </div>
-  </div>
-</div>
-
-  </div>
-</article> #}
-
-
-
- {# https://github.com/zenorocha/clipboard.js #}
-
-
-{# <div class="flex items-center justify-center bb b--white-20 bg-light-blue w-100">
-  <h2 class="white fw1">Market</h2>
-    <a href="/solana" class="f5 no-underline black bg-animate hover-bg-black hover-white inline-flex items-center pa3 border-box mr4">
-        <span class="w3 {{ 'animate__animated animate__bounce' if '/solana/' in page.url }}">
-          
-        </span>
-      <span class="pl4 white fw1">PancakeSwap <br>Buy | Add Liquidity</span>
-    </a>
-    <div class="mw7 center pa4">
-      <div class="cf">
-        <input 
-          id="solana-address"
-          class="f5 fw1 f5-l input-reset bn fl bg-light-blue white pa3 lh-solid w-100 w-75-m w-80-l  br2-ns br--left-ns" 
-          placeholder="8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe" 
-          type="text" 
-          value="8tbAqS4dFNEeC6YGWpNnusc3JcxoFLMiiLPyHctgGYFe">
-        <button 
-          class="btn f5 fw1 f5-l button-reset fl pv3 tc bn bg-animate bg-blue hover-bg-light-blue white pointer w-100 w-25-m w-20-l dim" 
-          data-clipboard-action="copy"
-          data-clipboard-target="#solana-address"
-          value="Copy">copy</button>
-      </div>
-  </div>
-</div> #}
-
-<article class="vh-100 dt w-100 bg-black">
-  <div class="dtc v-mid tc white ph3 ph4-l">
-    <img src="/images/pipana-grande.png">
   </div>
 </article>
